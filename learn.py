@@ -23,3 +23,4 @@ if a==b:
 else:
     result1=(a*b)
     print("a*b=", int(result1))
+
