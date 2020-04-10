@@ -1,5 +1,9 @@
-a, b = (int(i) for i in input().split())
-if a%2==0:
- a=+1
-for i in (a, b+1):
-    s=i+3
+a=int(input())
+b=int(input())
+s=0
+d=0
+for i in range(a, b+1):
+    if i%3==0:
+        s+=i
+        d+=1
+print(s/d)
