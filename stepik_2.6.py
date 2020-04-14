@@ -4,13 +4,12 @@
 num=int(input())
 matrix=[]
 mas=[]
-for i in range(num):
-    if len(mas)<=num:
-        print(len(mas))
+for i in range(num+1):
+    if len(mas)<num or len(mas)==num:
+        #print(len(mas))
         mas+=[i]*i
         i+=1
 matrix= (mas[:num])
-print (matrix)
+#print (matrix)
 for i in matrix:
     print (i, end=' ')
-
